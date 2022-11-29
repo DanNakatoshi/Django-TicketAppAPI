@@ -1,0 +1,2 @@
+git --work-tree=/home/dan/ticketapi/ --git-dir=/home/dan/ticketapi/github-hook.git/ checkout -f
+
