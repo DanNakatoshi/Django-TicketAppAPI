@@ -34,7 +34,7 @@ INSTALLED_APPS = [
 ]
 
 CRONJOBS = [
-    ('*/1 * * * *', 'djangoapi.cron.restore_scheduled_job'),
+    ('0 */1 * * *', 'djangoapi.cron.restore_scheduled_job'),
     #('*/1 * * * *', 'djangoapi.cron.backup_scheduled_job')
 ]
 
